@@ -2,4 +2,6 @@
 
 To do: write readme
 
+This code offers users an opportunity to test and review poorly produced code
+
 
