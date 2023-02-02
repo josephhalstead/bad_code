@@ -1,13 +1,12 @@
-from csv import *
-import argparse
-
 """
 Parse a BED file and generate some statistics
 """
 
+from pysam import VariantFile
+
+
 vcf = "NA12878.trio.sorted.snps.vcf.gz"
 
-from pysam import VariantFile
 Variantfile = VariantFile(vcf)
 
 out = 'out.stats'
