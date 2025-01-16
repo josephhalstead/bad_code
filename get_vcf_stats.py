@@ -71,7 +71,7 @@ for i in Variantfile.fetch():
 
 	elif c == '3':
 
-		count3 = count2 + 1
+		count3 = count3 + 1
 
 	if c == '4':
 
